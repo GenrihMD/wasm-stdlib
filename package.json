@@ -4,7 +4,10 @@
   "description": "Js standart library for wasm",
   "main": "index.js",
   "scripts": {
-    "test": "node ."
+    "test": "node .",
+    "asbuild:untouched": "asc assembly/index.ts --target debug",
+    "asbuild:optimized": "asc assembly/index.ts --target release",
+    "asbuild": "npm run asbuild:untouched && npm run asbuild:optimized"
   },
   "repository": {
     "type": "git",
