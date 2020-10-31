@@ -1,0 +1,28 @@
+{
+  "name": "wasm-stdlib",
+  "version": "1.0.0",
+  "description": "Js standart library for wasm",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GenrihMD/wasm-stdlib.git"
+  },
+  "keywords": [
+    "wasm",
+    "js",
+    "stlib"
+  ],
+  "author": "laamin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GenrihMD/wasm-stdlib/issues"
+  },
+  "homepage": "https://github.com/GenrihMD/wasm-stdlib#readme",
+  "dependencies": {
+    "@assemblyscript/loader": "^0.17.1",
+    "assemblyscript": "^0.17.1"
+  }
+}
