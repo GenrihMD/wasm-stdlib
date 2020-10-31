@@ -22,7 +22,9 @@
   },
   "homepage": "https://github.com/GenrihMD/wasm-stdlib#readme",
   "dependencies": {
-    "@assemblyscript/loader": "^0.17.1",
+    "@assemblyscript/loader": "^0.17.1"
+  },
+  "devDependencies": {
     "assemblyscript": "^0.17.1"
   }
 }
